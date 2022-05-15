@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .header {
+      width:100%;
+      height:70px;
+    }
+
+    .header1 {
+      width:93%;
+      height: 70px;
+      float:left;
+      background:dimgrey;
+    }
+
+    .header1 p {
+      position:relative;
+      float:left;
+      list-style:none;
+      margin:0;
+      padding-left:15px;
+    }
+
+    .header1 p a{
+      width:70px;
+      height:70px;
+      display:block;
+      text-decoration: none;
+      text-align: center;
+      line-height: 60px;
+      color:white;
+    }
+
+    .header1 p a:hover {
+      background-color:black;
+    }
+
+    .header1 p:first-child {
+      font-size: 22px;
+    }
+
+    .header2 {
+      width:7%;
+      height:70px;
+      background:dimgrey;
+      float:left;
+      text-decoration: none;
+    }
+
+    .header2 p {
+      position:relative;
+      float:left;
+      list-style:none;
+      margin:0;
+      padding:0;
+    }
+
+    .header2 p a{
+      width:86px;
+      height:70px;
+      display:block;
+      text-decoration: none;
+      text-align: center;
+      line-height: 60px;
+      color:white;
+    }
+
+    .header2 p a:hover {
+      background-color:black;
+    }
+
+    .center {
+      width:100%;
+      height:500px;
+    } 
+
+    .left {
+      width:18%;
+      height:500px;
+      float:left;
+      background:gainsboro;
+    }
+
+    .left p {
+      list-style:none;
+      text-align: center;
+    }
+
+    .left p:first-child {
+      padding-top:15px;
+    }
+
+    .left p a {
+      text-decoration: none;
+    }
+
+    .main {
+      width:60%;
+      height:500px;
+      float:left;
+      background:white;
+      padding-left:15px;
+      padding-right:10px;
+    }
+
+    .right {
+      width:20%;
+      height:500px;
+      float:left;
+      background:gainsboro;
+    }
+
+    .right div {
+      width:80%;
+      height: 50px;
+      position:relative;
+      border: 1px solid #CDCDCD;
+      text-align: center;
+      margin:15px 20px 20px 20px;
+      padding-top:30px;
+    }
+
+    .footer {
+      width:100%;
+      height:70px;
+      background: dimgrey;
+      color:white;
+      text-align: center;
+      line-height: 60px;
+    } 
+
+    @media only screen and (max-width: 1000px) {
+      .header, .center, .footer {
+        width:100%;
+      }
+    }
+
+    @media only screen and (max-width: 540px)  {
+      .header, .footer {
+        display:none;
+      }
+
+      .left, .main {
+        width:100%;
+      }
+
+      .right {
+        display:none;
+      }
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="header1">
+      <p><a href="Logo">Logo</a></p>
+      <p><a href="Home">Home</a></p>
+      <p><a href="About">About</a></p>
+      <p><a href="Projects">Projects</a></p>
+      <p><a href="Contact">Contact</a></p>
+    </div>
+    <div class="header2">
+      <p><a href="Login">Login</a></p>
+    </div>
+  </div>
+  <div class="center">
+    <div class="left">
+      <p><a href="Link">Link</a></p>
+      <p><a href="Link">Link</a></p>
+      <p><a href="Link">Link</a></p>
+    </div>
+    <div class="main">
+      <h1>Welcome</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+      </p>
+      <hr>
+      <h2>Test</h2>
+      <p>Lorem ipsum...</p>
+    </div> 
+    <div class="right">
+      <div>ADS</div>
+      <div>ADS</div>
+    </div> 
+  </div>
+  <div class="footer">Footer Text</div>
+</body>
+</html>
